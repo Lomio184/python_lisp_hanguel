@@ -1,0 +1,39 @@
+( 정의 pi 3.14)
+( * pi ( pow 4 2 ))
+(define a 10 )
+( + a 12 12 12 ( * 8 10 ))
+
+( 함수정의 circle (n)
+          ( * pi ( pow n 2 )))
+
+( defun fib (n)
+          ( if ( < n 2 ) (n)
+                ( + fib( - n 1 ) n )))
+
+( defun fact (n)
+          ( if ( < n 2 ) (n)
+                ( * n fact(- n 1) )))
+(fib(10))
+(circle(4))
+(fact(10))
+
+(list (foo) ( 1 2 3 4 5 6 ))
+(foo[1])
+( + foo[1] 7 ( * 7 8 ))
+
+(size foo)
+
+(defun 배열함수 (n)
+    ( + n 20 ))
+
+( 배열함수(foo[4]))
+
+"( 함수정의 fib (n)"
+                         "      ( if ( < n 2 ) (n)"
+                         "              ( + fib( - n 1 ) fib( - n 2 ))))"
+                         "(fib(10))"
+                         ""
+                         "(defun add( a b )"
+                         "  ( + a b ))"
+                         ""
+                         "( add( 1 2 ))"
